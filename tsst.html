@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	/*binarySearch([0, 5, 10, 15, 20, 22, 30, 35, 40], 15) → {occurance: 1, count: 2}
+binarySearch([0, 5, 10, 15, 20, 22, 30, 35, 40], 11) → {occurance: -1, count: 3}
+
+
+<!-- Task 7 -->
+
+Given a non-empty string like "Code" return a string like "CCoCodCode".
+
+
+stringSplosion("Code") → "CCoCodCode"
+stringSplosion("abc") → "aababc"
+stringSplosion("ab") → "aab"
+ document.write(minMaxLengthAverage([0, 5, 10, 15, 20, 22, 30, 35, 40], 15));
+ */
+ function binarySearch(word) {
+ 	// body...
+ 	var result ="";
+    for (var i = 1; i <= word.length; i++) {
+    	result += word.substr(0, i);
+    }
+    	return result;
+
+ }
+ document.write(binarySearch("Code"));
+	</script>
+</head>
+<body>
+
+</body>
+</html>
