@@ -1,0 +1,172 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  }
+  @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  }
+  @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  }
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+
+.grid-sm-6 {
+    width: 50%;
+  }
+body{
+    overflow-x: hidden;
+    background-color: #100E17;
+}
+html, body, div,
+h1, h2, h3, h4, h5, h6, p 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'montserrat';
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.txt{
+    color: white;
+
+}
+.de{
+    padding: 10px;
+    line-height: 30px;
+}
+.dd{
+    margin-top: -38%;
+    position: relative;
+    left: 50%;
+}
+.spa{
+background-color: #0CBA9F;
+padding: 10px;
+width: 40%;
+border-radius: 10px;
+}
+.txt{
+    border: 20px solid black;
+    border-radius: 50%;
+    position: relative;
+    right:40%;
+    margin-top: 1%;
+    width: 30%;
+}
+.new{
+    position: relative;
+    left: 20%;
+    width: 50%;
+}
+.now{
+    position: relative;
+    top: 60px;
+    padding: 60px;
+
+}
+.left{
+    position: relative;
+    top: -250px;
+    right: 70%;
+    width: 70%;
+}
+.mh-home{
+    background: rgba(0, 0, 0, 0.5);
+    background: url('./hom.jpg');
+    background-color: black;
+    height: 500px;
+    opacity: 90%;
+    filter: alpha(opacity=40);
+    color: white;
+}
+.one{
+    margin: 10px;
+    height:200px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: -30px;
+
+    
+}
+.on{
+    position: relative;
+    right: 70%;
+}
+.tw{
+    margin-top: -36%;
+    position: relative;
+    right:10%;
+}
+.th{
+    margin-top: -36%;
+    position: relative;
+    top:50%;
+    left: 50%;
+}
+.nx{
+    margin-top:-15%;
+}
+.gg{
+    margin-top:15%;
+    position: relative;
+   left: 55%;
+   top: -18%;
+   width: 70%;
+}
+.ee{
+    margin-top:-45%;
+    position: relative;
+   left: 6%;
+   top: 90%;
+   width: 70%;
+}
+
+#progress {
+    background: #727176;
+    border-radius: 13px;
+    height: 5px;
+    width: 300px;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: #0CBA9F;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+.lxl div p{
+    position: relative;
+    top: -20%;
+}
+
+
