@@ -7,6 +7,16 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link href="./reponsive.css" rel="stylesheet">
 	<link href="./style.css" rel="stylesheet">
+
+	<style>
+	input, textarea, button{
+		width: 50%;
+		padding: 10px;
+		margin:5px;
+	}
+	
+	</style>
+		
 </head>
 <body>
 		<div class="mh-home">
@@ -52,7 +62,7 @@
 										</h3>
 										<h3>
 										<strong>EMAIL ADDRESS:</strong>
-										<a href="mailto:teejohn247@gmail.com">teejohn247@gmail.com
+										<a>teejohn247@gmail.com
 										</h3>
 									<!--
 									<ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
@@ -234,13 +244,93 @@ Design websites and graphics contents for clients on a contract basis  Develop p
 
 				</div>
 				<br>
+				<br><br>
 				<br>
 
 				<br>
 				<br>
 				<br>
+
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+				
+				<div class="nx mh-home">
+					<h1 style= "position:relative; left:47%; top: 15%;">CONTACT</h1>
+					
+					<form name="myForm" onsubmit="return validateForm()" method="post" style="position: relative; left: 25%; top:20%;" >
+							<div class="row">
+								<div>
+									<input name="fname"  type="text" placeholder="First Name" >
+								</div>
+								<div>
+										<input name="email" type="email" placeholder="Email" >
+									</div>
+								<div>
+										<input name="title"  type="text" placeholder="Title">
+									</div>
+								<div>
+								</div>
+								<div>
+									<textarea rows="6" name="msg" placeholder="Your Message" ></textarea>
+								</div>
+								
+								<!-- Subject Button -->
+								<div class="btn-form col-sm-12">
+									<input type="submit" class="btn btn-fill btn-block" id="form-submit" style="width:51.5%; background-color: #0CBA9F;
+									border:none; color: white;  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); cursor: pointer;">
+								</div>
+							</div>
+						</form>
+			  </div>
+			  </div>
+
+					<div class="container">
+					<div class="row">
+							
+					  
 
 <h1 style="position:relative; left:40%;">REFREES AVAILABLE ON REQUEST </h1>
 
+
 </body>
+<script>
+		function validateForm() {
+		  var a = document.forms["myForm"]["fname"].value;
+		  var b = document.forms["myForm"]["email"].value;
+		  var c = document.forms["myForm"]["title"].value;
+		  var d = document.forms["myForm"]["msg"].value;
+		
+	
+		  if (a == "" ) {
+			alert("Name must be filled out");
+			return false;
+		  }
+		 
+		  if (a.length < 4) {
+			alert("characters must be at least 4 characters");
+			return false;
+		  }
+		 
+		  else if (b == "") {
+			alert("email field must be filled out");
+			return false;
+		  }
+		  else if (c == "") {
+			alert("title field must be filled out");
+			return false;
+		  }
+		  else if (d == "") {
+			alert("text field must be filled out");
+			return false;
+		  }
+		  if (d.length < 20) {
+			alert("characters must be at least 20 characters");
+			return false;
+		  }
+		}
+		</script>
 </html>
